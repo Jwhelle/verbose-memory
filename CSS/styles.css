@@ -1,0 +1,58 @@
+/*********Tag Selectors***************/
+
+/*Code Regarding the body of the page*/
+body {
+  background-color: #d7eaea;
+  font-family: 'Roboto', sans-serif;
+}
+/*Modifies all anchor tag selectors*/
+a {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+/*Hover and Visited Color Changes When Interacting With Hyperlinks*/
+a:hover {
+  color: #11999E;
+}
+
+a:visited {
+  color: gray;
+}
+
+/*Footer Code*/
+footer {
+  color: black;
+  font-size: .75rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+  text-align: center;
+}
+
+/*Code Regarding Header*/
+header {
+  margin: auto;
+}
+/*Code Pertaining to H1-H6 headers*/
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+}
+
+
+/*Code Pertaining to List Items.  In this instance, navigation links.*/
+li {
+  color: black;
+  display: inline;
+}
+/*Code Pertaining to the paragraph tag*/
+p {
+  text-align: center;
+}
+
+/**************Class Selectors*****************/
