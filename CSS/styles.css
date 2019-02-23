@@ -4,6 +4,7 @@
 body {
   background-color: #d7eaea;
   font-family: 'Roboto', sans-serif;
+  border-style: none;
 
 }
 /*Modifies all anchor tag selectors*/
@@ -31,6 +32,8 @@ footer {
   text-align: center;
 
 }
+
+/*Form Table Code*/
 
 /*Code Regarding Header*/
 header {

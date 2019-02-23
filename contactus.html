@@ -1,4 +1,4 @@
-<!--Joe Helle, 2/15/2019, index.html.  This webpage will mirror a webpage that I have already built and maintain, at leshorespp.org-->
+<!--Joe Helle, 2/23/2019, index.html.  This webpage will mirror a webpage that I have already built and maintain, at leshorespp.org-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -25,20 +25,56 @@
       <li><a href="\verbose-memory\contactus.html">Contact Us</a></li>
     </ul>
   </nav>
+
+<!--Form Table Section.-->
+<form id="contact" action="cf_response_page.php" method="post" style="width:350px">
+  <fieldset id="contactInfo">
+    <legend>Join Our Team</legend>
+    <label for="firstName">First Name</label>
+    <input name="contactFirstName" id="firstName" type="text" placeholder="Enter First Name">
+<br><br>
+    <label for="lastName">Last Name</label>
+    <input name="contactLastName" id="lastName" type="text" placeholder="Enter Last Name">
+<br><br>
+<label for="email" id="emailBox">Email Address</label>
+<input name="emailAddress" id="email" type="email" placeholder="Email Address">
+<br><br>
+<label>Are you age 18 or older?</label>
+<label for="ageYes">Yes</label>
+<input name="age" id="ageYes" type="radio">
+<label for="ageNo">No</label>
+<input name="age" id="ageNo" type="radio">
+<br><br>
+<label for="gender">Gender</label>
+<select name="contactGender" id="gender">
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="preferNot">Prefer Not to Say</option>
+</select>
+<br><br>
+<label for="feedback">Why do you want to join us?</label>
+<br><br>
+<textarea name="contactFeedback" id="feedback" type="textarea" cols="30" rows="10">
+</textarea>
+<br><br>
+<input type="submit" value="Submit">
+  </fieldset>
+</form>
+
   <!--Contact Us Section.  Constructed using a simple table.  Styled via external CSS.-->
   <section>
-<h1>Contact Us</h1>
-<table style="width:100%">
-<tr>
-  <td>Joe Helle</td>
-</tr>
-<tr>
-  <td>Port Clinton, OH</td>
-</tr>
-<tr>
-  <td>Email - jhelle@capellauniversity.edu</td>
-</tr>
-</table>
+    <h1>Contact Us</h1>
+    <table style="width:100%">
+      <tr>
+        <td>Joe Helle</td>
+      </tr>
+      <tr>
+        <td>Port Clinton, OH</td>
+      </tr>
+      <tr>
+        <td>Email - jhelle@capellauniversity.edu</td>
+      </tr>
+    </table>
   </section>
   <article>
     <h2></h2>
